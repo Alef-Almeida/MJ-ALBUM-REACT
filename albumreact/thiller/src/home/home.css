@@ -7,6 +7,10 @@ body {
     padding: 20px;
   }
   
+  .bodyHome {
+    height: 10%;
+
+  }
   /* Estilo para H1 */
   h1 {
     font-size: 2.5em;

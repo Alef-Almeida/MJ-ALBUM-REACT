@@ -9,7 +9,6 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-       <h1>TESTE MAIN</h1> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

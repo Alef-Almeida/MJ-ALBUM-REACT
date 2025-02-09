@@ -1,116 +1,121 @@
 /* Estilo para o corpo da página */
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  /*background: linear-gradient(135deg, #ca0101ea, #5400f0);*/
-}
-  
-  .login-container {
-    width: 100%; /* Em vez de um tamanho fixo, deixa mais responsivo */
-    min-height: 600px;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
-    text-align: center;
-    right: auto; /* Remove o deslocamento */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    border: 3px solid #2563eb; /* Borda azul */
-  } 
-  /* Estilo para H1 */
-  h1 {
-    font-size: 2.5em;
-    color: #2c3e50;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0fbbffea, #000000);
   }
+    .Login{
+      color: white;
+    }
   
-  /* Estilo para H2 */
-  h2 {
-    font-size: 2em;
-    color: #34495e;
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
+    .login-container {
+      width: 100%; /* Em vez de um tamanho fixo, deixa mais responsivo */
+      min-height: 600px;
+      background: linear-gradient(135deg, #0fbbffea, #000000);
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(10px);
+      text-align: center;
+      right: auto; /* Remove o deslocamento */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      border: 3px solid #2563eb; /* Borda azul */
+      
+    } 
+    /* Estilo para H1 */
+    h1 {
+      font-size: 2.5em;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 10px;
+    }
+    
+    /* Estilo para H2 */
+    h2 {
+      font-size: 2em;
+      color: #34495e;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+    
+    /* Estilo para H3 */
+    h3 {
+      font-size: 1.75em;
+      color: #2c3e50;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+    
+    /* Estilo para H4 */
+    h4 {
+      font-size: 1.5em;
+      color: #34495e;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    
+    /* Estilo para H5 */
+    h5 {
+      font-size: 1.25em;
+      color: #2c3e50;
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+    
+    /* Estilo para H6 */
+    h6 {
+      font-size: 1em;
+      color: #34495e;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    
+    /* Estilo para parágrafos */
+    p {
+      font-size: 1em;
+      margin-bottom: 15px;
+      color: #606468;
+    }
+    
+    /* Estilo para listas não ordenadas */
+    ul {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    
+    /* Estilo para listas ordenadas */
+    ol {
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+    
+    /* Estilo para itens de lista */
+    li {
+      margin-bottom: 5px;
+    }
+    
+    /* Espaçamento entre elementos de bloco */
+    h1, h2, h3, h4, h5, h6, p, ul, ol {
+      margin-top: 0;
+    }
+    
+    /* Estilo para links */
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
   
-  /* Estilo para H3 */
-  h3 {
-    font-size: 1.75em;
-    color: #2c3e50;
-    margin-top: 25px;
-    margin-bottom: 10px;
-  }
+   
   
-  /* Estilo para H4 */
-  h4 {
-    font-size: 1.5em;
-    color: #34495e;
-    margin-top: 20px;
-    margin-bottom: 10px;
-  }
   
-  /* Estilo para H5 */
-  h5 {
-    font-size: 1.25em;
-    color: #2c3e50;
-    margin-top: 15px;
-    margin-bottom: 10px;
-  }
   
-  /* Estilo para H6 */
-  h6 {
-    font-size: 1em;
-    color: #34495e;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  
-  /* Estilo para parágrafos */
-  p {
-    font-size: 1em;
-    margin-bottom: 15px;
-    color: #606468;
-  }
-  
-  /* Estilo para listas não ordenadas */
-  ul {
-    margin-left: 20px;
-    margin-bottom: 15px;
-  }
-  
-  /* Estilo para listas ordenadas */
-  ol {
-    margin-left: 20px;
-    margin-bottom: 15px;
-  }
-  
-  /* Estilo para itens de lista */
-  li {
-    margin-bottom: 5px;
-  }
-  
-  /* Espaçamento entre elementos de bloco */
-  h1, h2, h3, h4, h5, h6, p, ul, ol {
-    margin-top: 0;
-  }
-  
-  /* Estilo para links */
-  a {
-    color: #3498db;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-
- 
-
-

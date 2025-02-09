@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #D1D6DA, #000000);
+  }
+
+.container-music {
+    position: absolute;
+    top: 50%;
+    left:55%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    height: 80%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito fosco */
+    -webkit-backdrop-filter: blur(10px); /* Suporte para Safari */
+    border-radius: 15px; /* Borda arredondada */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.container-image {
+    position: absolute;
+    top:20%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    width: 13%; 
+    height: 20%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito fosco */
+    -webkit-backdrop-filter: blur(10px); /* Suporte para Safari */
+    border-radius: 15px; /* Borda arredondada */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.container-related {
+    position: absolute;
+    top:61%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+    width: 13%; 
+    height: 58%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito fosco */
+    -webkit-backdrop-filter: blur(10px); /* Suporte para Safari */
+    border-radius: 15px; /* Borda arredondada */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}

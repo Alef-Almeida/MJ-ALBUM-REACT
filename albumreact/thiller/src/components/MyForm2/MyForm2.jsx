@@ -27,7 +27,7 @@ const MyForm2 = () => {
             if (response.ok) {
                 alert("Login bem-sucedido!");
                 // Redireciona para a página principal ou qualquer outra após login
-                navigate("/home"); 
+                navigate("/musicScreen"); 
             } else {
                 const errorData = await response.json().catch(() => ({}));
                 alert("Erro ao realizar login: " + (errorData.message || "Tente novamente."));

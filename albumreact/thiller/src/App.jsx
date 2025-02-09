@@ -5,6 +5,7 @@ import Cadastro from './cadastro/Cadastro';
 import About from './about/About';
 import Home from './home/home'
 import Login from './login/Login';
+import MusicScreen from './album/musicScreen';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/musicScreen" element={<MusicScreen />} />
       </Routes>
     </BrowserRouter>
   );

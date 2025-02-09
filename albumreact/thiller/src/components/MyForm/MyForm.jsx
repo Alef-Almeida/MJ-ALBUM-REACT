@@ -32,6 +32,7 @@ const MyForm = () => {
                 setLogin('');
                 setEmail('');
                 setPassword('');
+                
             } else {
                 const errorData = await response.json().catch(() => ({}));
                 alert("Erro ao cadastrar: " + (errorData.message || "Tente novamente."));
